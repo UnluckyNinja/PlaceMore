@@ -1,0 +1,14 @@
+name: PlaceMore
+main: com.github.unluckyninja.bukkit.placemore.PlaceMore
+version: 1.2
+description: This plugin help you do reduplicate work.
+author: UnluckyNinja
+commands:
+  plm:
+    description: To perform the commands of PlaceMore.
+    usage: /<command> [start|stop] [c|cc|ns|we|nswe]
+    permission: placemore.plm
+    permission-message: You don't have <permission>
+permissions:
+  placemore.allow:
+    description: Gives access to all commands of PlaceMore.
