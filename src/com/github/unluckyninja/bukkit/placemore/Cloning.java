@@ -15,6 +15,17 @@ import org.bukkit.entity.Player;
 import org.bukkit.material.*;
 import org.bukkit.util.Vector;
 
+/**
+ * The base class to repeat a player's behavior.
+ * 
+ * The process:
+ * 1. A player performs the command, creates an instance of this class.
+ * 2. To be continued...
+ * 
+ * @author UnluckyNinja
+ * @see BlockFaceConvertor
+ * @see LocationConvertor
+ */
 public class Cloning {
 
     public static enum Symmetry {

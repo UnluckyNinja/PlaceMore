@@ -9,8 +9,6 @@ import org.bukkit.util.Vector;
 
 public class BlockFaceConvertor {
 
-    public static enum BlockFaceVector {
-    }
     private static Map<Symmetry, BlockFaceConvertor> map = new HashMap<>();
     private final Symmetry mode;
     private static final Vector EAST = new Vector(1, 0, 0);
